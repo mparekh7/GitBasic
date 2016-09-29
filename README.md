@@ -1,6 +1,6 @@
 To add project
 
-got to project directory 
+go to project directory
 echo "# comment" >> README.md
 git init
 git add .
