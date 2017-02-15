@@ -16,3 +16,12 @@ To remove folder
 git rm -r folder_name
 git commit -m "your commit"
 git push origin master
+
+---------------------------------------
+
+To edit your configuration file:
+
+git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+git commit --amend --reset-author   
